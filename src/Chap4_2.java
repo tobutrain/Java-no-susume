@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Chap4_2 {
     public static void main(String[] args) {
-        int age = 15;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("年齢を入力してください。" );
+        int age = scanner.nextInt();
         if(age >= 20) {
             System.out.println("あなたは成人です。");
         } else {
