@@ -12,4 +12,3 @@ public class Chap5_2 {
         }
     }
 }
-
