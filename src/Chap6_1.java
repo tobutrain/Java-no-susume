@@ -25,4 +25,3 @@ class Remaind{
         return res;
     }
 }
-
